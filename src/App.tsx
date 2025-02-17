@@ -5,6 +5,8 @@ import Effect from './Effect.tsx';
 import Ref from './Ref.tsx';
 import ImperativeHandle from './ImperativeHandle.tsx';
 import Context from './Context.tsx';
+import Memo from './Memo.tsx';
+import Callback from './Callback.tsx';
 
 const App: React.FC =() => {
   return (
@@ -14,6 +16,8 @@ const App: React.FC =() => {
       <Ref />
       <ImperativeHandle />
       <Context />
+      <Memo />
+      <Callback />
     </div>
   );
 }

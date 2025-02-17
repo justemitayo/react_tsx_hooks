@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import {AppContext} from './Context.tsx'
 
-const Login = () => {
+const Login:React.FC = () => {
 
     const context = useContext(AppContext);
     if (!context) {

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import axios from 'axios'
 
-const Effect = () => {
+const Effect:React.FC = () => {
   const [data, setData] = useState('');
   const [count, setCount] = useState(0)
 

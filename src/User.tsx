@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import {AppContext} from './Context.tsx'
 
 
-const User = () => {
+const User:React.FC = () => {
 
     const context = useContext(AppContext)
 
