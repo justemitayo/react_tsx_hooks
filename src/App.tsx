@@ -7,6 +7,7 @@ import ImperativeHandle from './ImperativeHandle.tsx';
 import Context from './Context.tsx';
 import Memo from './Memo.tsx';
 import Callback from './Callback.tsx';
+import { Contexts } from './Contexts.tsx';
 
 const App: React.FC =() => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC =() => {
       <Context />
       <Memo />
       <Callback />
+      <Contexts />
     </div>
   );
 }
